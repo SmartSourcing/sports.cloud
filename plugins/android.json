@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.metova.cordova.coffeescript": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        }
+    },
+    "dependent_plugins": {}
+}

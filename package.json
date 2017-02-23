@@ -1,0 +1,13 @@
+{
+  "name": "Sports-Cloud",
+  "version": "1.0.0",
+  "description": "A mob ile app for paintball tournaments",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "coffeeify": "^2.1.0",
+    "requirejs": "^2.3.3"
+  },
+  "author": "Alejandro Gurovich",
+  "license": "Apache version 2.0"
+}
