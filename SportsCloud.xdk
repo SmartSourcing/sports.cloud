@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "a8a5e615-aecc-45f2-8178-c7241db22ac1",
-      "lastModifiedDate": 1487856464532,
+      "lastModifiedDate": 1487949668999,
       "creationDate": 1487684488415
     },
     "XDK-app-designer": "true",
@@ -52,24 +52,6 @@
         "name": "Device",
         "description": "Cordova Device Plugin",
         "checksum": "1eae5d64",
-        "cordovaVersion": ">=3.0.0"
-      },
-      {
-        "id": "cordova-plugin-splashscreen",
-        "version": "2.1.0",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": [],
-        "originType": "cordova.io",
-        "origin": "cordova-plugin-splashscreen",
-        "permissions": {},
-        "topLevel": true,
-        "gitref": "",
-        "name": "Splashscreen",
-        "description": "Cordova Splashscreen Plugin",
-        "checksum": "170efb68",
         "cordovaVersion": ">=3.0.0"
       },
       {

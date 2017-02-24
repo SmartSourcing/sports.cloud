@@ -1,0 +1,1 @@
+// This gets generated compiling hook when building to platform #TODO: only in production mode
