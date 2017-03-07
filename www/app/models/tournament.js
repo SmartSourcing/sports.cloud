@@ -16,7 +16,7 @@ define(function (require) {
         url: 'http://localhost:3000/api/v1/tournaments',
         parse: function(response, options) {
             console.log(response);
-            return response.data;
+            return response;
         }
     });
 
