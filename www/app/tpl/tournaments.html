@@ -6,14 +6,15 @@
                     <img src="images/ic_action_new.png"/>
                 </div>
                 <div class="item-inner">
-                    <div class="item-title">Crea tu propio torneo</div>                                                                 </div>
+                    <div class="item-title"><%= $.i18n.get('add.tournament') %></div>
+                </div>
             </a>
         </li>
         <% _.each(tournaments, function(tournament) { %>
             <li>
-                <a href="#" class="item-link item-content">
+                <a href='#/tournaments/<%= tournament.id %>' class="item-link item-content">
                     <div class="item-media">
-                        <img src=<%= tournament.logo %>/>
+                        <img src='<%= tournament.logo %>'/>
                     </div>
                     <div class="item-inner">
                         <div class="item-title"><%= tournament.name %></div>
