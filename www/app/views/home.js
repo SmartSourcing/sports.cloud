@@ -24,12 +24,6 @@ define(function (require) {
         render: function () {
 
             $('#page_content').html(template({tournaments: this.tournaments.toJSON() } ) );
-            /*$('#page_content').on('click', 'a[href^="#/"]', function (event) {
-
-                event.preventDefault();
-                var url = this.href.split('#')[1];                
-                Backbone.history.navigate(url);
-            });*/
             return this;
         }    
     });

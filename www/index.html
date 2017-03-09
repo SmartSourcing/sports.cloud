@@ -17,21 +17,32 @@
         <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
         <script src="cordova.js" id="xdkJScordova_"></script>
         <script src="xdk/init-dev.js"></script>
+        <!--script type="application/javascript" src="js/bundle.js"></script-->
         <script type="application/javascript" src="lib/jquery.min.js"></script>
-        <script type="application/javascript" src="lib/framework7/js/framework7.min.js"></script>        
+        <script type="application/javascript" src="lib/jquery-1.10.2.min.map"></script>
+        <script type="application/javascript" src="lib/framework7/js/framework7.min.js"></script>
         <script type="application/javascript" src="lib/i18n.js"></script>
+        <script type="application/javascript" src="lib/sidebar/js/hammer.js"></script>
+        <script type="application/javascript" src="lib/sidebar/js/jquery.hammer.js"></script>
+        <script type="application/javascript" src="lib/sidebar/js/swipe-hammer.js"></script>
+        <script type="application/javascript" src="lib/sidebar/js/sidebar.js"></script>
+        <script type="application/javascript" src="lib/underscore-min.js"></script>
+        <script type="application/javascript" src="lib/backbone-min.js"></script>
+        <script type="application/javascript" src="lib/require.js"></script>
         <script type="application/javascript" src="js/en.js"></script>
         <script type="application/javascript" src="js/es.js"></script>
-        <script type="application/javascript" src="lib/sidebar/js/hammer.js"></script>
-        <script type="application/javascript" src="lib/sidebar/js/jquery.hammer.js"></script>    
-        <script type="application/javascript" src="lib/sidebar/js/swipe-hammer.js"></script>
-        <script type="application/javascript" src="lib/sidebar/js/sidebar.js"></script>                
-        <script type="application/javascript" src="lib/underscore-min.js"></script>
-        <script type="application/javascript" src="lib/backbone-min.js"></script>        
-        <script type="application/javascript" src="lib/require.js"></script>
-        <script type="application/javascript" src="js/bundle.js"></script>
+        <script src="http://127.0.0.1:9090/livereload.js"></script> 
     </head>
     <body>
+        <div class="panel-overlay"></div>
+        <div class="panel panel-left panel-reveal">
+            <div class="content-block">
+                <p id='menu-news'><a href="#"></a></p>
+                <p id='menu-ss'><a href="#"></a></p>
+                <p id='menu-language'><a href="#"></a></p>
+                <p id='menu-close'><a href="#" onclick="app.Menu('close');" class="panel-close"></a></p>
+            </div>
+        </div>
         <div class="uwrap views">
             <div class="upage view-main view" id="mainpage">
                 <div class="pages">
@@ -40,24 +51,30 @@
                             <div class="navbar">
                                 <div class="navbar-inner">
                                     <div class="left">
+                                        <a href="#/" class="link icon-only hide" id='back'>
+                                            <i class="icon icon-back"></i>
+                                        </a>
                                         <img src="images/logo_app.png" style="widht: 40px; height: 40px;"/>
                                     </div>
-                                    <div class="center"></div>
+                                    <div class="center">
+                                        <span></span>
+                                        <a href="#" onclick="app.reload();">
+                                            <img src="images/refresh.png" style="widht: 30px; height: 30px;">
+                                        </a>
+                                    </div>
                                     <div class="right">
-                                        <a href="#" class="link">
+                                        <a href="#" class="link" onclick="app.Menu('open');">
                                             <i class="icon icon-bars"></i>
                                         </a>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>                               
                             <div id="page_content"></div>                                                   
                         </div>
                     </div>
                 </div>
             </div>
         </div>        
-        <!--script type="application/javascript" src="app.js"></script-->
         <script type="application/javascript" src="http://localhost:8000/app.js"></script>
-        <script type="application/javascript" src="lib/framework7/my-app.js"></script>
     </body>
 </html>

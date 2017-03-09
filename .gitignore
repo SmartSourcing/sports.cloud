@@ -8,3 +8,4 @@ LICENSE.md
 /node_modules/*
 /plugins/*
 /xdk/*
+/platforms/*

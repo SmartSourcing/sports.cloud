@@ -4,9 +4,11 @@ Requisites: JDK 1.8
 
 $ npm install -g cordova
 
-$ cordova create <project>
+$ git clone 
 
 $ cd <project>
+
+$ npm install
 
 $ cordova platform add browser
 
@@ -22,8 +24,15 @@ $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-batt
 
 $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-whitelist.git
 
-$ npm install browserify
+$ cordova plugin add cordova-plugin-browsersync
 
-$ npm install requirejs
+# in a terminal tab
+$ grunt
 
-$ npm install coffeeify
+# in a second terminal tab
+$ cordoba run browser
+
+TODO: List
+- put js files inside bundle.js
+- add conditional compiling(enviroments)
+- complete ios and android deploy and test

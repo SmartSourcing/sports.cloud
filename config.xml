@@ -8,6 +8,7 @@
         Alejandro Gurovich
     </author>
     <content src="index.html" />
+    <content src="http://127.0.0.1:8000" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -16,5 +17,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />    
-    <hook type="before_build" src="scripts/sc.js" />
+    <hook type="before_build" src="scripts/js-assets.compile.js" />
+    
 </widget>

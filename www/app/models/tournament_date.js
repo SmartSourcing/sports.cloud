@@ -5,13 +5,13 @@ define(function (require) {
 
     var TournamentDate = Backbone.Model.extend({
 
-        urlRoot: 'http://localhost:3000/api/v1/tournament_dates/' + this.id
+        urlRoot: 'http://localhost:3000/api/v1/tournament_dates'
     });
 
     var TournamentDates = Backbone.Collection.extend({
 
         model: TournamentDate,
-        url: 'http://localhost:3000/api/v1/tournament_dates?tournament_id=' + this.tournament_id,
+        url: 'http://localhost:3000/api/v1/tournament_dates',
         parse: function(response, options) {
             console.log(response);
             return response;
@@ -19,7 +19,7 @@ define(function (require) {
     });
 
     return {
-        Tournament: TournamentDate,
-        Tournaments: TournamentDates
+        TournamentDate: TournamentDate,
+        TournamentDates: TournamentDates
     };
 });

@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "a8a5e615-aecc-45f2-8178-c7241db22ac1",
-      "lastModifiedDate": 1487949668999,
+      "lastModifiedDate": 1489082154034,
       "creationDate": 1487684488415
     },
     "XDK-app-designer": "true",
@@ -113,6 +113,26 @@
         "data": {},
         "dependedBy": [],
         "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-browsersync",
+        "name": "cordova-plugin-browsersync",
+        "version": "0.1.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-browsersync",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-browsersync",
+        "selectedState": "Included",
+        "checksum": "c2010939",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova Plugin to integrate browser-sync in the workflow",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
       }
     ],
     "buildConfigurations": {
@@ -145,7 +165,7 @@
         "appVersion_": "0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
-        "appVersionCode_": "1"
+        "appVersionCode_": "0.1"
       },
       "Android": {
         "platform_": "android",

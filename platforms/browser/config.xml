@@ -10,7 +10,7 @@
     <author email="alejandro.gurovich@gmail.com" href="http://www.smart-sourcing.com.ar/">
         Alejandro Gurovich
     </author>
-    <content src="index.html" />
+    <content src="http://127.0.0.1:8000" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -18,5 +18,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <hook src="scripts/sc.js" type="before_build" />
+    <hook src="scripts/js-assets.compile.js" type="before_build" />
 </widget>

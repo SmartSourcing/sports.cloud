@@ -8,7 +8,7 @@ define(function (require) {
         //urlRoot: 'http://staging.paintball-tournaments.com/api/v1',        
         initialize: function () {
 
-            this.urlRoot = 'http://localhost:3000/api/v1/tournaments'; //' + this.id;
+            this.urlRoot = 'http://localhost:3000/api/v1/tournaments';
         }
     });
 
