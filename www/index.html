@@ -40,7 +40,8 @@
                 <p id='menu-news'><a href="#"></a></p>
                 <p id='menu-ss'><a href="#"></a></p>
                 <p id='menu-language'><a href="#"></a></p>
-                <p id='menu-close'><a href="#" onclick="app.Menu('close');" class="panel-close"></a></p>
+                <p id='menu-close'>
+                    <a href="#" data-bypass="true" onclick="app.Menu('close');" class="panel-close"></a>                              </p>
             </div>
         </div>
         <div class="uwrap views">
@@ -58,7 +59,9 @@
                                     </div>
                                     <div class="center">
                                         <span></span>
-                                        <a href="#" onclick="app.reload();">
+                                    </div>
+                                    <div>
+                                        <a href="#" onclick="app.reload();" data-bypass="true">
                                             <img src="images/refresh.png" style="widht: 30px; height: 30px;">
                                         </a>
                                     </div>

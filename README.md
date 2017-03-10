@@ -33,6 +33,5 @@ $ grunt
 $ cordoba run browser
 
 TODO: List
-- put js files inside bundle.js
-- add conditional compiling(enviroments)
-- complete ios and android deploy and test
+
+    - complete ios and android deploy and test

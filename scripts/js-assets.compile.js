@@ -1,4 +1,4 @@
-
+/*
 var fs         = require('fs');
 var browserify = require('browserify');
 var coffeeify  = require('coffeeify');  
@@ -19,3 +19,4 @@ browserify()
     .add('./www/js/es.js')    
     .bundle()
     .pipe(fs.createWriteStream('www/js/bundle.js'));
+*/

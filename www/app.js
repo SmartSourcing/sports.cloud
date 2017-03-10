@@ -28,8 +28,11 @@ app.Menu = function (action) {
 }
 
 app.reload = function() {    
-    Backbone.history.location.reload();
-    return false;
+    //Backbone.history.location.reload();
+    //window.location.reload();
+    // Backbone.history.navigate('/'+Backbone.history.fragment, true);
+    //return false;
+    Backbone.history.loadUrl(Backbone.history.fragment);
 }
 
 // Router helper

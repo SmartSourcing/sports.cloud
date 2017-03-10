@@ -7,10 +7,21 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-device": {},
-        "cordova-plugin-statusbar": {},
-        "cordova-plugin-globalization": {},
-        "com.metova.cordova.coffeescript": {}
+        "com.metova.cordova.coffeescript": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.coligo.randomword"
+        }
     },
     "dependent_plugins": {}
 }

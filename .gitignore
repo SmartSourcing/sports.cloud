@@ -8,4 +8,9 @@ LICENSE.md
 /node_modules/*
 /plugins/*
 /xdk/*
+/platforms
 /platforms/*
+SportsCloud.xdk
+SportsCloud.xdke
+.jscodehints
+.DS_Store
