@@ -1,4 +1,4 @@
-# Creating HTML5 mobile app with cordova and angular2 
+# Sample Cordova Html 5 mobile application with requirejs and backbone
 
 Requisites: JDK 1.8 
 
