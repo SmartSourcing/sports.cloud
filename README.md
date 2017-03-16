@@ -1,4 +1,4 @@
-# Sample Cordova Html 5 mobile application with requirejs and backbone
+# Sample Cordova Html 5 mobile application with requirejs, framework7, underscore and backbone
 
 Requisites: JDK 1.8 
 
