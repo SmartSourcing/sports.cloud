@@ -29,6 +29,8 @@ $ cordova plugin add cordova-plugin-browsersync
 # in a terminal tab
 $ grunt
 
+# clone https://github.com/aleguro/paintball.api and use it as api backend.
+
 # in a second terminal tab
 $ cordoba run browser
 
